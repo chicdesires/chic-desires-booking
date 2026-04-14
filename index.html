@@ -11,19 +11,23 @@
       padding: 0;
       color: #333;
     }
+
     .container {
-      max-width: 700px;
+      max-width: 750px;
       margin: auto;
       padding: 20px;
     }
+
     h1 {
       text-align: center;
       color: #c2185b;
     }
+
     h2 {
-      margin-top: 25px;
       color: #880e4f;
+      margin-top: 20px;
     }
+
     .box {
       background: white;
       padding: 15px;
@@ -31,6 +35,15 @@
       border-radius: 10px;
       box-shadow: 0 2px 8px rgba(0,0,0,0.1);
     }
+
+    .important {
+      background: #ffe6ef;
+      padding: 15px;
+      border-radius: 10px;
+      margin-top: 15px;
+      font-weight: bold;
+    }
+
     .btn {
       display: block;
       text-align: center;
@@ -42,40 +55,84 @@
       text-decoration: none;
       font-weight: bold;
     }
+
+    .btn:hover {
+      background: #a3154a;
+    }
   </style>
 </head>
 
 <body>
   <div class="container">
-    <h1>✨ Please Read Before Booking</h1>
-    <p>By booking, you agree to the following policies.</p>
+
+    <h1>✨ Chic Desires Booking Policy</h1>
+
+    <div class="important">
+      By booking an appointment, you agree to all policies below.
+    </div>
 
     <div class="box">
       <h2>💳 Deposit Policy</h2>
-      <p>A non-refundable deposit is required to secure your appointment.</p>
+      <p>
+        • $100 deposit required for all regular makeup appointments<br>
+        • 50% deposit required for bridal makeup<br>
+        • Deposits are non-refundable and non-transferable<br>
+        • Appointment is NOT confirmed until deposit is received
+      </p>
+    </div>
+
+    <div class="box">
+      <h2>⏳ Payment Time Frame</h2>
+      <p>
+        • Deposits must be paid within 48 hours<br>
+        • If not paid within 48 hours, appointment is cancelled
+      </p>
     </div>
 
     <div class="box">
       <h2>⏰ Late Policy</h2>
-      <p>Late arrivals may result in a fee or cancellation.</p>
+      <p>
+        • 15-minute grace period allowed<br>
+        • After 15 minutes: $50 late fee<br>
+        • After 30 minutes: appointment may be cancelled or rescheduled
+      </p>
     </div>
 
     <div class="box">
-      <h2>❌ Cancellation</h2>
-      <p>24 hours notice required. Deposits are non-refundable.</p>
+      <h2>❌ Cancellation Policy</h2>
+      <p>
+        • 24-hour notice required for cancellations<br>
+        • Late cancellations = loss of deposit
+      </p>
     </div>
 
     <div class="box">
-      <h2>🚫 No Shows</h2>
-      <p>No-shows lose deposit and may require full payment next time.</p>
+      <h2>🚫 No-Show Policy</h2>
+      <p>
+        • No-shows must pay full price for next booking<br>
+        • Deposit is forfeited
+      </p>
     </div>
 
     <div class="box">
       <h2>👯 Guests</h2>
-      <p>No extra guests unless approved.</p>
+      <p>
+        • No extra guests allowed unless approved
+      </p>
     </div>
 
-    <a href="https://wa.me/1 868 686-2087" class="btn">BOOK NOW</a>
+    <div class="box">
+      <h2>📅 Final Reminder</h2>
+      <p>
+        By booking, you agree to all terms listed above.
+      </p>
+    </div>
+
+    <!-- WHATSAPP BUTTON -->
+    <a class="btn" href="https://wa.me/1868XXXXXXXX">
+      💬 BOOK NOW ON WHATSAPP
+    </a>
+
   </div>
 </body>
 </html>
